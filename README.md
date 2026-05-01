@@ -80,21 +80,25 @@ What was the budget of Product 12?
 Generated SQL:
 
 SELECT `2017 Budgets` FROM `2017_budgets` WHERE `Product Name` = 'Product 12'
+
 📊 Evaluation (RAGAS)
 Metric	Score
 Context Precision	0.80
 Helpfulness	4.6 / 5
+
 🎯 Features
 Natural language → SQL conversion
 Schema-aware query generation
 Works with MySQL databases
 Evaluation using RAGAS metrics
 Modular LangChain pipeline
+
 ⚠️ Limitations
 No UI (currently notebook-based)
 Limited dataset size
 No SQL execution validation layer
 Requires manual setup
+
 🔮 Future Improvements
 Add Streamlit UI for interaction
 Execute generated SQL and display results
