@@ -1,4 +1,4 @@
-🧠 Text-to-SQL GenAI System (Gemini + LangChain + RAGAS)
+## 🧠 Text-to-SQL GenAI System (Gemini + LangChain + RAGAS)
 
 Convert natural language questions into SQL queries using Google Gemini API, LangChain, and evaluate performance using RAGAS metrics.
 
@@ -10,6 +10,7 @@ Ask questions in natural language
 Automatically generate SQL queries
 Query a MySQL database
 Evaluate the quality of generated queries using RAGAS
+
 🏗️ Architecture
 User Question
      ↓
@@ -22,6 +23,7 @@ Generated SQL Query
 (Optional: Execute on MySQL DB)
      ↓
 Evaluation using RAGAS
+
 ⚙️ Tech Stack
 LLM: Google Gemini API
 Framework: LangChain
@@ -29,6 +31,7 @@ Database: MySQL
 Evaluation: RAGAS
 Embeddings: HuggingFace (sentence-transformers)
 Language: Python
+
 📂 Project Structure
 📦 Text-to-SQL-GenAI
  ┣ 📜 notebook.ipynb
